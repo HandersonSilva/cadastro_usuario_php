@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+     height: 100%;
+     margin-top: 2%;
+     background: #fff;
+     justify-content: center;
+     align-items: center
+   }
+
+body {
+     margin: 0px;
+ }
+
+ .endereco{
+    width: 80%;
+ }
+ #uf{
+    width: 30%;
+   
+}#cep{
+    width: 35%;
+   
+}
+.documentos{
+    width: 40%;
+   
+}
+
+#bordarDiv{
+    
+    border-radius: 5px;
+    background-color: rgb(182, 233, 229);
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+ #nomeU{
+    width: 80%;
+   
+}
+#email{
+width: 80%;
+    
+   
+}
+
+#data{
+    width: 40%;
+        
+       
+    }
+#visualizar{
+    margin-top: 40px;
+}
+.form-group{
+    margin-top:25px;
+    margin-left: 10px;
+  
+}
+#file{
+    width: 40%;
+    
+}
+#btnEnvia{
+    
+    width: 26%;
+    margin-bottom: 2%;
+
+   
+}
+#img{
+   margin-left: 1%;
+    background-color: rgb(182, 233, 229);
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#visualizaFoto{
+
+}
+

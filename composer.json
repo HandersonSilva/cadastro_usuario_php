@@ -1,0 +1,25 @@
+{
+    "autoload": {
+       "psr-4": {
+           "App\\": "App"
+
+           
+       }   
+   },
+
+   "name": "upload de Arquivos",
+   
+   "require":{
+       "php":">=5.3"
+   },
+
+   "minimum-stability" : "alpha",
+
+   "authors": [{
+       "name":"HandersonSilva"
+   }]
+  
+}
+
+    
+  
