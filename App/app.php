@@ -21,6 +21,8 @@ namespace App;
                     $cadUser = new controlleCadUser();
 
                     $cadUser->cadUsuario($dir,$past,$extImg);
+                    $cadUser->cadastroUser();
+                    
                     break;
                 default:
                     require_once("Views/cadastro.php");

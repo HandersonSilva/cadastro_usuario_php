@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="form-group">
                                             <label >Email:</label><br/>
-                                            <input type="email" id="email">
+                                            <input type="email" id="email" name="email">
                                             
                                     </div>
                                    
