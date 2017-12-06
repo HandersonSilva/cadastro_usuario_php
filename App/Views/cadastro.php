@@ -73,9 +73,9 @@
                                             <input type="text"  class="celular" maxlength="11" name="celWhats" class="form-control" id="celWhats" placeholder="Fone Whatsap">
                                           </div>
                                     <div class="form-group" >
-                                        <label>Selecione a Foto:</label><br/>
-                                        <input type="file" name="arquivo" id="file">
-                                        <input type="hidden" name="MAX_FILE_SIZE" value="30000">     
+                                            <label>Selecione a Foto:</label><br/>
+                                            <input type="file" name="arquivo" id="file">
+                                            <input type="hidden" name="MAX_FILE_SIZE" value="30000">
                                     </div>
                                     <div class="form-group ">
                                         <label >Endereço:</label><br/>
