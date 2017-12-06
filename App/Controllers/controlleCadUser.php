@@ -41,9 +41,8 @@
                             if(move_uploaded_file($arquivo['tmp_name'], $past.$nome_atual)){
                                 $this->caminhoOriginal = $past.$nome_atual;
                                 //retorna para função ajaxForm
-                                //echo "<img src='temp/".$nome_atual."' id='img'class='img-circle' width='180' height='180' id='previsualizar' alt='Cinque Terre'> ";
-                               echo "<img src=' imgUser/wallpaper-14459.jpg' id='img'class='img-circle' width='180' height='180' id='previsualizar' alt='Cinque Terre'> ";
-                              
+                                echo "<img src='temp/".$nome_atual."' id='img'class='img-circle' width='180' height='180' id='previsualizar' alt='Cinque Terre'> ";
+                               
                                
                             }
 

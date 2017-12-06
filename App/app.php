@@ -21,7 +21,7 @@ namespace App;
                     $cadUser = new controlleCadUser();
 
                     $cadUser->cadUsuario($dir,$past,$extImg);
-                    $cadUser->cadastroUser();
+                   // $cadUser->cadastroUser();
                     
                     break;
                 default:

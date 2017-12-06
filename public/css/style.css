@@ -14,15 +14,25 @@ body {
  .endereco{
     width: 80%;
  }
+ #cpf{
+    width: 45%;
+   
+} 
+#rg{
+    width: 35%;
+   
+}
  #uf{
     width: 30%;
    
 }#cep{
+    text-align: center;
     width: 35%;
    
 }
-.documentos{
-    width: 40%;
+.celular{
+    text-align: center;
+    width: 45%;
    
 }
 
@@ -76,7 +86,5 @@ width: 80%;
     -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
     box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
-#visualizaFoto{
 
-}
 
