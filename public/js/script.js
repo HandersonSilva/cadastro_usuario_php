@@ -4,7 +4,7 @@
         $('#file').on('change',function(){
                $('#visualizar').html('<img src="ajax-loader.gif" alt="Enviando..."/> Enviando...');
                // Efetua o Upload 
-               $('#formulario').ajaxForm({
+               $('#frmFoto').ajaxForm({
                    target:'#visualizar' // o callback será no elemento com o id #visualizar
                }).submit();
            });

@@ -43,7 +43,7 @@
                 </div>
                  
                 <div class="col-md-8" id="bordarDiv">
-                    <form id="formulario" enctype="multipart/form-data" action="index.php?p=cadastrar" method="POST">
+                    <form id="formulario"  method="POST">
                             
                     <div class="row">
                         <div class="col-lg-9">
@@ -72,11 +72,7 @@
                                             <input type="text"  class="celular" maxlength="11" name="cel" class="form-control" id="cel" placeholder="Fone" ><br/>
                                             <input type="text"  class="celular" maxlength="11" name="celWhats" class="form-control" id="celWhats" placeholder="Fone Whatsap">
                                           </div>
-                                    <div class="form-group" >
-                                            <label>Selecione a Foto:</label><br/>
-                                            <input type="file" name="arquivo" id="file">
-                                            <input type="hidden" name="MAX_FILE_SIZE" value="30000">
-                                    </div>
+                                    
                                     <div class="form-group ">
                                         <label >Endereço:</label><br/>
                                         <input type="text" class="endereco" maxlength="100" name="rua" class="form-control" id="rua" placeholder="Rua"><br/>
@@ -87,12 +83,22 @@
                                         
                                       </div>
                                 
-                                   
+                                      
                             </form> 
                         </div>
                         <div class="col-lg-3" id="visualizaFoto">
                                 <div id="visualizar">
-                                    
+                                    <img src='imgUser/userInicial.jpg' id='img'class='img-circle' width='180' height='180' id='previsualizar' alt='Cinque Terre'>
+                                        
+                                </div>
+                                <br/>
+                                <div  >
+                                <form id="frmFoto" enctype="multipart/form-data" action="index.php?p=cadastrar" method="POST">
+                                    <label>Selecione uma Foto:</label><br/>
+                                    <input type="file" name="arquivo" id="file"><br/>
+                                    <input type="hidden" name="MAX_FILE_SIZE" value="30000">
+                                </form>
+                                            
                                 </div>
                         </div>
                     </div>
