@@ -17,7 +17,7 @@
                         $arquivo = $_FILES['arquivo'];
                         $file = $dir.$arquivo['name'];
                         $this->nomeImgOrigin = $arquivo['name'];
-                        echo $this->nomeImgOrigin;
+                       
 
 
                     
