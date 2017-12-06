@@ -68,7 +68,7 @@
                                         <input type="text"   maxlength="10" name="rg" class="form-control" id="rg" placeholder="RG">
                                       </div>
                                       <div class="form-group">
-                                            <label >Contatos::</label><br/>
+                                            <label >Contatos:</label><br/>
                                             <input type="text"  class="celular" maxlength="11" name="cel" class="form-control" id="cel" placeholder="Fone" ><br/>
                                             <input type="text"  class="celular" maxlength="11" name="celWhats" class="form-control" id="celWhats" placeholder="Fone Whatsap">
                                           </div>
